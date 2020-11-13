@@ -1,6 +1,8 @@
 # py-utility-pack
 
-Collection of small Python packages and simple CLI tools that will make you dry. Install via pip and start using without delay.
+Collection of small Python packages and simple CLI tools that will make you dry.
+
+**Install via pip and start using without delay.**
 
 Here is a list of packages in this repo.
 

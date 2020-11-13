@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 version = re.search(
     '^__version__\s*=\s*"(.*)"',
-    open('ado/__init__.py', 'r').read(),
+    open('minsert/__init__.py', 'r').read(),
     re.M).group(1)
 
 

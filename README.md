@@ -1,6 +1,6 @@
 # py-utility-pack
 
-Collection of small python packages that will make you dry. Usage is as simple as pip install then import it and then call the function.
+Collection of small Python packages and simple CLI tools that will make you dry. Install via pip and start using without delay.
 
 Here is a list of packages in this repo.
 

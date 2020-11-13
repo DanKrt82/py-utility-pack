@@ -20,9 +20,9 @@ def import_do():
     try:
         import do
         return do
-    except ImportError:
-        print('do.py not found')
+    except ImportError as err:
         print(__doc__)
+        print(err)
         sys.exit(1)
 
 

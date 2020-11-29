@@ -39,4 +39,4 @@ drive_menu('Calculate', options)
 
 Here is a sample output:
 
-![output](images/mendi.gif)
+![output](https://github.com/aahnik/py-utility-pack/blob/main/mendi/images/mendi.gif?raw=true)

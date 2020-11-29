@@ -2,8 +2,8 @@
 
 Simple wrapper that helps you write a menu-driven program easily.
 
-> A menu-driven program is one, which the user is provided a list of choices.
-> A particular action is done when the user chooses a valid choice.
+> A menu-driven program is one, in which the user is provided a list of choices.
+> A particular action is done when the user chooses a valid option.
 > There is also an exit option, to break out of the loop.
 > Error message is shown on selecting a wrong choice.
 

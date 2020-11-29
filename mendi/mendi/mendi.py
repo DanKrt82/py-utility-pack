@@ -1,4 +1,12 @@
-''' mendi '''
+''' 
+Simple wrapper that helps you write a menu-driven program easily.
+
+> A menu-driven program is one, in which the user is provided a list of choices.
+> A particular action is done when the user chooses a valid option.
+> There is also an exit option, to break out of the loop.
+> Error message is shown on selecting a wrong choice.
+
+'''
 
 import os
 from tabulate import tabulate
@@ -20,7 +28,7 @@ def drive_menu(heading: str, menus: dict) -> None:
 
     Args:
         heading (str): A suitable heading of your choice
-        menus (dict): Dictionary of menus, where key is choice no. and value is another dictionary containing `desc` and `func`
+        menus (dict): Dictionary of menus, where key is choice no. and value is another dictionary containing `desc` and `func`.
     '''
     table = [[ch, menu['desc']] for ch, menu in menus.items()]
     menu_chart = f'''

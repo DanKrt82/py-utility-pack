@@ -1,4 +1,4 @@
-# name-of-package
+# dirganize
 
 A command-line tool to organize files into category directories.
 

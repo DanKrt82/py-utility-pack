@@ -25,7 +25,7 @@ setuptools.setup(
     install_requires=['typer', 'rich', 'pyyaml'],
     entry_points={
         'console_scripts': [
-            'dirganize=dirganize:main:main',
+            'dirganize=dirganize.main:app',
         ],
     },
     classifiers=[

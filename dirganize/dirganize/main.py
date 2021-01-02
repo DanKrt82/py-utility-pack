@@ -7,8 +7,10 @@ from rich.progress import track
 from rich.logging import RichHandler
 import typer
 
+app = typer.Typer()
 
-def dirganize(path: str = os.getcwd(), loud: bool = False):
+@app.command()
+def main(path: str = os.getcwd(), loud: bool = False):
     ''' Organizes files into folders
     '''
 
@@ -65,6 +67,6 @@ def dirganize(path: str = os.getcwd(), loud: bool = False):
             os.rename(file, new_file)
             logging.info('%s renamed to %s', file, new_file)
 
+if __name__ == "__main__":
+    app()
 
-def main():
-    typer.run(main)

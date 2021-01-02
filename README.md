@@ -13,7 +13,7 @@ Here is a list of packages in this repo.
 | [ado-py](/ado-py/README.md) | Do stuff with python. Quickly access functions from the command-line. |
 | [minsert](/minsert/README.md) | Insert dynamic content in markdown, without using a separate template file. |
 | [mendi](/mendi/README.md) | Simple wrapper that helps you write a menu-driven program easily. |
-| [dirganize](/dirganize/README.md) | TODO: |
+| [dirganize](/dirganize/README.md) | A command-line tool to organize files into category directories. |
 
 <!-- 🛑 -->
 

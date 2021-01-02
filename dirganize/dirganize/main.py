@@ -9,6 +9,7 @@ import typer
 
 app = typer.Typer()
 
+
 @app.command()
 def main(path: str = os.getcwd(), loud: bool = False):
     ''' Organizes files into folders
@@ -39,7 +40,7 @@ def main(path: str = os.getcwd(), loud: bool = False):
 
     if os.path.isfile(config_file):
         with open(config_file) as stream:
-            structure.update(yaml.full_load(stream))
+            structure = (yaml.full_load(stream))
 
     logging.info(structure)
 
@@ -67,6 +68,6 @@ def main(path: str = os.getcwd(), loud: bool = False):
             os.rename(file, new_file)
             logging.info('%s renamed to %s', file, new_file)
 
+
 if __name__ == "__main__":
     app()
-

@@ -1,5 +1,0 @@
-click==7.1.2
-fernet==1.0.1
-pyaes==1.6.1
-python-dotenv==0.15.0
-typer==0.3.2

@@ -18,3 +18,5 @@ Here is a list of packages in this repo.
 <!-- 🛑 -->
 
 Feel free to contribute a new one. See [Contributing Guidelines](/.github/CONTRIBUTING.md) for more details.
+
+[![promoted](https://raw.githubusercontent.com/aahnik/aahnik/master/promoted/general.gif)](https://aahnik.github.io/aahnik/promoted/general.html)

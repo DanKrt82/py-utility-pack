@@ -44,3 +44,8 @@ For user input use `input()` function.
 Call any function from the terminal by running `ado func`.
 
 Running only `ado` would print the docstring of `do.py`.
+
+
+## Alternatives
+
+[Typer CLI](https://typer.tiangolo.com/typer-cli/) is simply great. It also supports auto-completion. 
